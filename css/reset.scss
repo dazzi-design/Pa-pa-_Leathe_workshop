@@ -1,0 +1,15 @@
+/* reset.scss */
+/* 모든 스타일에서 공통사용*/
+
+* {
+    margin: 0 auto; padding: 0;
+    box-sizing: border-box;
+  }
+  // body {width: 1200px; margin: 0 auto;}
+  a{ text-decoration: none; color: #fff;}
+  ul { list-style-type: none;}
+  li {
+    display: inline-block;
+}
+
+  

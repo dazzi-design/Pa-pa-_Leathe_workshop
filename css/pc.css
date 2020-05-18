@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* pc.scss */
+/*초기화 코드 불러오기*/
+/* reset.scss */
+/* 모든 스타일에서 공통사용*/
+* {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+/* 헤더 */
+header {
+  width: 1200px;
+}
+
+header h1 {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+header ul {
+  height: 60px;
+  background: #b63d32;
+  color: #fff;
+  text-align: center;
+}
+
+header ul li {
+  padding: 23px;
+}
+
+/* 메인비주얼 */
+#main-vis {
+  position: relative;
+  width: 1200px;
+}
+
+#main-vis .up {
+  position: absolute;
+}
+
+#main-vis .up h1 {
+  font-size: 72px;
+  color: #fff;
+  padding-top: 350px;
+  padding-left: 82px;
+}
+
+/* 서비스 */
+#service {
+  width: 1200px;
+  height: 246px;
+  text-align: center;
+}
+
+#service h2 {
+  padding-top: 50px;
+  padding-bottom: 52px;
+  font-size: 40px;
+}
+
+#service p {
+  font-size: 20px;
+  padding-bottom: 56px;
+}
+
+/* 스토리 */
+#story {
+  width: 1200px;
+  position: relative;
+}
+
+#story .left {
+  position: absolute;
+  width: 590px;
+  height: 400px;
+  background: #d6a29e;
+}
+
+#story .left h3 {
+  font-size: 40px;
+  padding-top: 78px;
+  width: 428px;
+  padding-bottom: 40px;
+}
+
+#story .left p {
+  font-size: 18px;
+  width: 428px;
+}
+
+#story .left button {
+  width: 203px;
+  height: 54px;
+  margin-left: 82px;
+  margin-top: 36px;
+  background: #b63d32;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+#story .right {
+  float: right;
+  width: 590px;
+  height: 400px;
+  background: green;
+  right: 0;
+  margin-bottom: 137px;
+}
+
+/* 푸터정보 */
+#footer_info {
+  width: 1200px;
+  height: 200px;
+  clear: both;
+  position: relative;
+  background: #3c1d17;
+}
+
+#footer_info div {
+  text-align: center;
+  color: #fff;
+  width: 280px;
+  padding-top: 43px;
+  padding-bottom: 20px;
+}
+
+#footer_info div h4 {
+  width: 202px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 57px;
+  /* outline: 1px solid red; */
+  float: right;
+}
+
+#footer_info div img {
+  width: 57px;
+  /* outline: 1px solid yellow; */
+  float: left;
+}
+
+#footer_info h1 {
+  clear: both;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* 푸터 */
+#footer {
+  width: 1200px;
+  height: 147px;
+  position: relative;
+  background: #b63d32;
+  text-align: center;
+  color: #fff;
+}
+
+#footer img {
+  margin-left: 46px;
+  margin-top: 50px;
+  padding-bottom: 18px;
+}
+/*# sourceMappingURL=pc.css.map */
